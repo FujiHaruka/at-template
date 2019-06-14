@@ -29,5 +29,6 @@
     "format": "prettier --write lib/**/*.js test/**/*.js",
     "prepare": "npm run format && npm run doc",
     "test": "mocha"
-  }
+  },
+  "types": "lib/index.d.ts"
 }
