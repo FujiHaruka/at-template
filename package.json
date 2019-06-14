@@ -1,27 +1,31 @@
 {
   "name": "at-template",
-  "version": "0.1.0",
   "description": "JavaScript template engine with @{atSign} syntax",
-  "main": "lib",
-  "scripts": {
-    "format": "prettier --write lib/**/*.js test/**/*.js",
-    "test": "mocha"
+  "version": "0.1.0",
+  "author": "FujiHaruka",
+  "bugs": {
+    "url": "https://github.com/FujiHaruka/at-template/issues"
   },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/FujiHaruka/at-template#readme",
+  "keywords": [
+    "engine",
+    "template"
+  ],
+  "license": "MIT",
+  "main": "lib/AtTemplate.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FujiHaruka/at-template.git"
   },
-  "keywords": [
-    "template",
-    "engine"
-  ],
-  "author": "FujiHaruka",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/FujiHaruka/at-template/issues"
-  },
-  "homepage": "https://github.com/FujiHaruka/at-template#readme",
-  "devDependencies": {
-    "prettier": "^1.18.2"
+  "scripts": {
+    "format": "prettier --write lib/**/*.js test/**/*.js",
+    "prepare": "npm run format",
+    "test": "mocha"
   }
 }
