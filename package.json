@@ -1,7 +1,7 @@
 {
   "name": "at-template",
   "description": "JavaScript template engine with @{atSign} syntax",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "FujiHaruka",
   "bugs": {
     "url": "https://github.com/FujiHaruka/at-template/issues"
