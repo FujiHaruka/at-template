@@ -1,0 +1,17 @@
+# at-template
+
+[![Build Status](https://travis-ci.org/FujiHaruka/at-template.svg?branch=master)](https://travis-ci.org/FujiHaruka/at-template)
+[![npm version](https://badge.fury.io/js/at-template.svg)](https://badge.fury.io/js/at-template)
+
+JavaScript template engine with @@{atSign} syntax.
+
+## Usage
+
+* `@@{variable}` for string replacement
+* `@@@{variable}` for escaping
+
+```js
+@{code}
+```
+
+That's all.

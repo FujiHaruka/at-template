@@ -24,8 +24,9 @@
     "url": "git+https://github.com/FujiHaruka/at-template.git"
   },
   "scripts": {
+    "doc": "node doc.js",
     "format": "prettier --write lib/**/*.js test/**/*.js",
-    "prepare": "npm run format",
+    "prepare": "npm run format && npm run doc",
     "test": "mocha"
   }
 }
