@@ -7,7 +7,7 @@
     "url": "https://github.com/FujiHaruka/at-template/issues"
   },
   "devDependencies": {
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.2",
     "prettier": "^1.18.2"
   },
   "files": [
